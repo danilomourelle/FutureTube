@@ -51,4 +51,4 @@
 - CORS
 - JEST
 
-#### Para mais informações veja [Meu Portifólio](http://danilomourelle-whats4.surge.sh)
+#### Para mais informações veja [Meu Portfólio](http://danilomourelle-whats4.surge.sh)

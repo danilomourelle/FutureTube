@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components'
 import Header from './components/header';
+import HeroImg from './components/heroImage';
 
 const GlobalStyle = createGlobalStyle` 
   *{
@@ -27,6 +28,7 @@ function App() {
     <PageWrapper>
       <GlobalStyle />
       <Header />
+      <HeroImg />
     </PageWrapper>
   );
 }

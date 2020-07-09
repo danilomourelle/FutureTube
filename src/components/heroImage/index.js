@@ -13,6 +13,9 @@ const Wrapper = styled.figure`
   background-repeat: no-repeat;
   display:flex;
   flex-flow:row nowrap;
+  @media(max-width: 900px){
+    flex-flow: column nowrap;
+  }
 `
 const SocialMediasWrapper = styled.aside`
   width:4%;
@@ -22,8 +25,15 @@ const SocialMediasWrapper = styled.aside`
   gap: 6%;
   place-items:center;
   align-content: flex-start;
+  @media(max-width: 900px){
+    order: 1;
+    grid-auto-flow: column;
+    gap: 100%;
+    padding: 0;
+  }
   @media(max-width: 500px){
     visibility: hidden;
+
   }
 `
 const Presentation = styled.div`
@@ -34,6 +44,14 @@ const Presentation = styled.div`
   display:grid;
   gap:4%;
   align-content: flex-start;
+  @media(max-width: 900px){
+    font-size: 32px;
+    margin:0;
+  }
+  @media(max-width: 500px){
+    font-size: 24px;
+    margin:0;
+  }
   h1{
     font-size: 1em;
     font-weight: bold;
@@ -45,6 +63,9 @@ const Presentation = styled.div`
   h3{
     font-size: 0.32em;
     font-weight: normal;
+    @media(max-width: 500px){
+      visibility:hidden;
+    }
   }
 `
 

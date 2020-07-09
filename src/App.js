@@ -2,6 +2,7 @@ import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components'
 import Header from './components/header';
 import HeroImg from './components/heroImage';
+import AboutMe from './components/aboutMe';
 
 const GlobalStyle = createGlobalStyle` 
   *{
@@ -29,6 +30,7 @@ function App() {
       <GlobalStyle />
       <Header />
       <HeroImg />
+      <AboutMe />
     </PageWrapper>
   );
 }

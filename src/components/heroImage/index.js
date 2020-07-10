@@ -74,10 +74,11 @@ function HeroImg() {
   return (
     <Wrapper>
       <SocialMediasWrapper>
-        <a href='https://www.linkedin.com/in/danilomourelle/' ><img src={require('../../images/LinkedIn/group-10-copy.png')} alt='LinkedIn' /></a>
-        <a href='https://github.com/danilomourelle' ><img src={require('../../images/GitHub/fill-1-copy.png')} alt='GitHub' /></a>
-        <a href='https://twitter.com/DaniloMourelle' ><img src={require('../../images/Twitter/fill-1-copy-2.png')} alt='Twitter' /></a>
-        <a href='https://www.instagram.com/danilomourelle/?hl=pt-br' ><img src={require('../../images/Instagran/group-8-copy.png')} alt='Instagran' /></a>
+        <a href='https://www.linkedin.com/in/danilomourelle/' target='_blank' rel='noopener noreferrer' ><img src={require('../../images/LinkedIn/group-10-copy.png')} alt='LinkedIn' /></a>
+        <a href='https://api.whatsapp.com/send?phone=5511981464977' target='_blank' rel='noopener noreferrer' ><img src={require('../../images/WhatsApp/group-3-copy.png')} alt='WhatsApp' /></a>
+        <a href='https://github.com/danilomourelle' target='_blank' rel='noopener noreferrer' ><img src={require('../../images/GitHub/fill-1-copy.png')} alt='GitHub' /></a>
+        <a href='https://twitter.com/DaniloMourelle' target='_blank' rel='noopener noreferrer' ><img src={require('../../images/Twitter/fill-1-copy-2.png')} alt='Twitter' /></a>
+        <a href='https://www.instagram.com/danilomourelle/?hl=pt-br' target='_blank' rel='noopener noreferrer' ><img src={require('../../images/Instagran/group-8-copy.png')} alt='Instagran' /></a>
       </SocialMediasWrapper>
       <Presentation>
         <h1>Eu sou<br /> Danilo Mourelle</h1>

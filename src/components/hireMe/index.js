@@ -5,7 +5,7 @@ const Wrapper = styled.article`
   width:100%;
   background-color: #8d1c31;
   color: #ffffff;
-  padding: 6% 12%;
+  padding: 4% 12%;
   font-size: 42px;
   display: grid;
   gap: 5vh;
@@ -54,35 +54,42 @@ const SocialMediasWrapper = styled.aside`
 
 function HireMe() {
   const linkedIn = [require('../../images/LinkedIn/group-10-copy@2x.png'), require('../../images/LinkedIn/group-10-copy.png')]
+  const whatsApp = [require('../../images/WhatsApp/group-3-copy@2x.png'), require('../../images/WhatsApp/group-3-copy.png')]
   const github = [require('../../images/GitHub/fill-1-copy@2x.png'), require('../../images/GitHub/fill-1-copy.png')]
   const twitter = [require('../../images/Twitter/fill-1-copy-2@2x.png'), require('../../images/Twitter/fill-1-copy-2.png')]
   const instagram = [require('../../images/Instagran/group-8-copy@2x.png'), require('../../images/Instagran/group-8-copy.png')]
 
   return (
-    <Wrapper>
+    <Wrapper id='contact'>
       <Title>Contrate-me!</Title>
       <Text>Procuro oportunidade de trabalho onde eu possa aprender, <br /> me desenvolver e evoluir na minha carreia profissional.</Text>
       <Text>E-mail para contato: <a href='mailto:danilomourelle@outlook.com'>danilomourelle@outlook.com</a> <br />Celular: (11) 9 8146-4977</Text>
       <SocialMediasWrapper>
-        <a href='https://www.linkedin.com/in/danilomourelle/' >
+        <a href='https://www.linkedin.com/in/danilomourelle/' target='_blank' rel='noopener noreferrer' >
           <picture>
             <source media="(max-width: 500px)" srcSet={linkedIn[1]} />
             <img src={linkedIn[0]} alt='LinkedIn' />
           </picture>
         </a>
-        <a href='https://github.com/danilomourelle' >
+        <a href='https://api.whatsapp.com/send?phone=5511981464977' target='_blank' rel='noopener noreferrer' >
+          <picture>
+            <source media="(max-width: 500px)" srcSet={whatsApp[1]} />
+            <img src={whatsApp[0]} alt='WhatsApp' />
+          </picture>
+        </a>
+        <a href='https://github.com/danilomourelle' target='_blank' rel='noopener noreferrer' >
           <picture>
             <source media="(max-width: 500px)" srcSet={github[1]} />
             <img src={github[0]} alt='GitHub' />
           </picture>
         </a>
-        <a href='https://twitter.com/DaniloMourelle' >
+        <a href='https://twitter.com/DaniloMourelle' target='_blank' rel='noopener noreferrer' >
           <picture>
             <source media="(max-width: 500px)" srcSet={twitter[1]} />
             <img src={twitter[0]} alt='Twitter' />
           </picture>
         </a>
-        <a href='https://www.instagram.com/danilomourelle/?hl=pt-br' >
+        <a href='https://www.instagram.com/danilomourelle/?hl=pt-br' target='_blank' rel='noopener noreferrer' >
           <picture>
             <source media="(max-width: 500px)" srcSet={instagram[1]} />
             <img src={instagram[0]} alt='Instagram' />

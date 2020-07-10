@@ -5,14 +5,14 @@ const Wrapper = styled.article`
   width:100%;
   background-color: #d97824;
   color: #ffffff;
-  padding: 6% 12%;
+  padding: 4% 12%;
   font-size: 25px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-content: flex-start;
   @media(max-width: 900px){
-    padding: 6%;
+    padding: 4% 6%;
     font-size: 21px;
   }
   @media(max-width: 700px){
@@ -36,6 +36,9 @@ const Class = styled.section`
   @media(max-width: 1200px){
     margin-bottom: 3vh;
   }
+  @media(max-width: 700px){
+    width: 80%;
+  }
 `
 const ClassTitle = styled.h1`
   font-size: 0.84em;
@@ -45,7 +48,7 @@ const Text = styled.p`
   line-height: 1.5em;
   font-size: 0.52em;
   @media(max-width: 700px){
-    font-size: 10px;
+    font-size: 12px;
   }
 `
 

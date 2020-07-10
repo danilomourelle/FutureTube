@@ -5,12 +5,16 @@ import HeroImg from './components/heroImage';
 import AboutMe from './components/aboutMe';
 import Knowledge from './components/knowledge';
 import Education from './components/education';
+import MyProjects from './components/myProjects';
 import HireMe from './components/hireMe';
 
 const GlobalStyle = createGlobalStyle` 
   *{
     box-sizing: border-box;
     margin:0;
+  }
+  html{
+    scroll-behavior: smooth;
   }
   body{
     width:100%;
@@ -36,6 +40,7 @@ function App() {
       <AboutMe />
       <Knowledge />
       <Education />
+      <MyProjects />
       <HireMe />
     </PageWrapper>
   );

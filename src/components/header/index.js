@@ -4,6 +4,7 @@ import styled from 'styled-components'
 const Wrapper = styled.header`
   width:100%;
   height: 5vh;
+  min-height: 28px;
   background-color: #8d1c31;
   padding: 0 32px;
   display: flex;
@@ -20,7 +21,9 @@ const Name = styled.h6`
   font-weight: 800;
   margin: auto 0;
 `
-const Links = styled.p`
+const Links = styled.a`
+  text-decoration: none;
+  color: inherit;
   margin: 0 16px;
   font-size: 0.8em;
   cursor: pointer;
@@ -35,13 +38,13 @@ const Links = styled.p`
   }
 `
 
-function Header(){
-  return(
+function Header() {
+  return (
     <Wrapper>
       <Name>Danilo</Name>
-      <Links>Projetos</Links>
-      <Links>Quem Sou</Links>
-      <Links>Contato</Links>
+      <Links href='#projects' >Projetos</Links>
+      <Links href='#about'>Quem Sou</Links>
+      <Links href='#contact'>Contato</Links>
     </Wrapper>
   )
 }

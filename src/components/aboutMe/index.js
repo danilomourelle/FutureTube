@@ -6,7 +6,7 @@ const Wrapper = styled.article`
   height: 600px;
   background-color: #063447;
   color: #ffffff;
-  padding: 6% 12%;
+  padding: 4% 12%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -33,8 +33,8 @@ const TextWrapper = styled.section`
     width: 45%;
     font-size: 36px;
   }
-  @media(max-width: 600px){
-    width: 100%;
+  @media(max-width: 700px){
+    width: 80%;
     height: 60%;
     font-size: 32px;
   } 
@@ -89,7 +89,7 @@ const ImageWrapper = styled.img`
 
 function AboutMe() {
   return (
-    <Wrapper>
+    <Wrapper id='about'>
       <TextWrapper>
         <Title>Sobre mim</Title>
         <Description>
@@ -104,7 +104,7 @@ function AboutMe() {
           <Keywords>TS</Keywords>
           <Keywords>SQL</Keywords>
         </span>
-        <a href='../../CV_Danilo_Mourelle.pdf' download="CV - Danilo Mourelle.pdf" ><Button>Baixe meu CV</Button></a>
+        <a href='../../Documents/CV_Danilo_Mourelle.pdf' download="CV - Danilo Mourelle.pdf" ><Button>Baixe meu CV</Button></a>
       </TextWrapper>
 
       <ImageWrapper src={require('../../images/Personal/DSCN0677.jpg')} alt='Profile' />

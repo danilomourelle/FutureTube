@@ -5,7 +5,7 @@ const Wrapper = styled.article`
   width:100%;
   background-color: #33a6a6;
   color: #ffffff;
-  padding: 6% 12%;
+  padding: 4% 12%;
   font-size: 25px;
   display: flex;
   flex-flow: row wrap;
@@ -37,8 +37,8 @@ const Stack = styled.section`
   @media(max-width: 1200px){
     width: 250px;
   }
-  @media(max-width: 600px){
-    width: 100%;
+  @media(max-width: 700px){
+    width: 80%;
   } 
 `
 const StackTitle = styled.h1`

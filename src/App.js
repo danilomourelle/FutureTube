@@ -3,6 +3,8 @@ import styled, { createGlobalStyle } from 'styled-components'
 import Header from './components/header';
 import HeroImg from './components/heroImage';
 import AboutMe from './components/aboutMe';
+import Knowledge from './components/knowledge';
+import Education from './components/education';
 
 const GlobalStyle = createGlobalStyle` 
   *{
@@ -31,6 +33,8 @@ function App() {
       <Header />
       <HeroImg />
       <AboutMe />
+      <Knowledge />
+      <Education />
     </PageWrapper>
   );
 }

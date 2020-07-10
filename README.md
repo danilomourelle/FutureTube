@@ -1,4 +1,4 @@
-> Status do Projeto: Em Contrução :warning:
+> Status do Projeto: Concluido :heavy_check_mark:
 # Danilo Mourelle
 <p align="justify">Olá. Cursei faculdade de Ciências Biológicas na Universidade Estadual Paulista - Júlio de Mesquita Filho (UNESP) <em>campus</em> de Rio Claro entre os anos de 2007 e 2011. Durante o curso tive minha primeira experiência profissional (iniciação científica) onde atuei como pesquisador na área de farmacologia investigando os efeitos nociceptivos de componentes dos venenos de insetos sociais (<em>Hymenopteras</em>). Após conclusão do curso, fiz trabalho voluntário como pesquisador na USP-EACH pelo período de 1 ano, na área de neurofarmacologia com foco em Doença de Alzheimer, memória e aprendizado. Já entre os anos de 2013 e 2015 cursei o programa de pós-graduação (mestrado) de farmacologia do Instituto de Ciências Biomédicas ICB-USP onde realizei a conclusão de créditos, porém sem defesa de dissertação. </p>
   
@@ -51,4 +51,4 @@
 - CORS
 - JEST
 
-#### Para mais informações veja [Meu Portfólio](http://danilomourelle-whats4.surge.sh)
+#### Para mais informações veja [Meu Portfólio](portfolio.danilomourelle.vercel.app)

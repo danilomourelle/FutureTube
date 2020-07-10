@@ -5,6 +5,7 @@ import HeroImg from './components/heroImage';
 import AboutMe from './components/aboutMe';
 import Knowledge from './components/knowledge';
 import Education from './components/education';
+import HireMe from './components/hireMe';
 
 const GlobalStyle = createGlobalStyle` 
   *{
@@ -35,6 +36,7 @@ function App() {
       <AboutMe />
       <Knowledge />
       <Education />
+      <HireMe />
     </PageWrapper>
   );
 }

@@ -14,7 +14,7 @@ const Wrapper = styled.article`
     min-height: 500px;
     padding: 6% ;
   }
-  @media(max-width: 600px){
+  @media(max-width: 700px){
     height: 600px;
     flex-flow: column nowrap;
     align-items: center;
@@ -25,7 +25,7 @@ const TextWrapper = styled.section`
   width: 400px;
   font-size: 42px;
   display: grid;
-  gap: 5%;
+  gap: 15px;
   a{
     justify-self: center;
   }
@@ -35,7 +35,6 @@ const TextWrapper = styled.section`
   }
   @media(max-width: 700px){
     width: 80%;
-    height: 60%;
     font-size: 32px;
   } 
 `
@@ -79,7 +78,7 @@ const ImageWrapper = styled.img`
   @media(max-width: 1200px){
     width: 45%;
   }
-  @media(max-width: 600px){
+  @media(max-width: 700px){
     width: 30vw;
     height: 30vw;
     object-position: 50% 0px; 

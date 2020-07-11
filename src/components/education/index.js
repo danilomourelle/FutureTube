@@ -18,7 +18,7 @@ const Wrapper = styled.article`
   @media(max-width: 700px){
     flex-flow: column nowrap;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:flex-start;
     font-size: 16px;
   }
 `
@@ -38,6 +38,7 @@ const Class = styled.section`
   }
   @media(max-width: 700px){
     width: 80%;
+    height: unset;
   }
 `
 const ClassTitle = styled.h1`

@@ -32,7 +32,7 @@ const Class = styled.section`
   width: 300px;
   height: 100%;
   display: grid;
-  gap: 2vh;
+  gap: 15px;
   @media(max-width: 1200px){
     margin-bottom: 3vh;
   }

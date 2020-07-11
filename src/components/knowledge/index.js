@@ -11,15 +11,14 @@ const Wrapper = styled.article`
   flex-flow: row wrap;
   justify-content: space-between;
   align-content: flex-start;
-  @media(max-width: 1200px){
+  @media(max-width: 900px){
     padding: 6%;
     font-size: 21px;
-    justify-content:space-evenly;
+    justify-content:flex-start;
   }
-  @media(max-width: 600px){
+  @media(max-width: 700px){
     flex-flow: column nowrap;
     align-items: center;
-    justify-content:space-evenly;
     font-size: 16px;
   }
 `
@@ -33,12 +32,13 @@ const Stack = styled.section`
   width: 400px;
   height: 100%;
   display: grid;
-  gap: 2vh;
+  gap: 15px;
   @media(max-width: 1200px){
-    width: 250px;
+    width: 300px;
   }
   @media(max-width: 700px){
     width: 80%;
+    height: unset;
   } 
 `
 const StackTitle = styled.h1`

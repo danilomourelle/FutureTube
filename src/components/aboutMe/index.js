@@ -14,7 +14,7 @@ const Wrapper = styled.article`
     min-height: 500px;
     padding: 6% ;
   }
-  @media(max-width: 600px){
+  @media(max-width: 700px){
     height: 600px;
     flex-flow: column nowrap;
     align-items: center;
@@ -25,7 +25,7 @@ const TextWrapper = styled.section`
   width: 400px;
   font-size: 42px;
   display: grid;
-  gap: 5%;
+  gap: 15px;
   a{
     justify-self: center;
   }
@@ -35,7 +35,6 @@ const TextWrapper = styled.section`
   }
   @media(max-width: 700px){
     width: 80%;
-    height: 60%;
     font-size: 32px;
   } 
 `
@@ -79,7 +78,7 @@ const ImageWrapper = styled.img`
   @media(max-width: 1200px){
     width: 45%;
   }
-  @media(max-width: 600px){
+  @media(max-width: 700px){
     width: 30vw;
     height: 30vw;
     object-position: 50% 0px; 
@@ -93,7 +92,7 @@ function AboutMe() {
       <TextWrapper>
         <Title>Sobre mim</Title>
         <Description>
-          Atualmente um desenvolverdor Web Fullstack, tenho 3 anos de experiência em programação de robôs industriais, onde desenvolvi habilidade na área de programação de linguagens de alto nível e lógica de programação. Também fiz parte, por 4 anos, de um grupo de pesquisa científica em sistemas neurais com foco em memória, aprendizado e Doença de Alzheimer onde obtive familiaridade com documentações em lingua inglesa e a repetibilidade de protocolos pré-estabelecidos.
+          Atualmente um desenvolverdor Web Fullstack, tenho 3 anos de experiência com programação de robôs industriais, onde desenvolvi habilidade com linguagens de alto nível e lógica de programação. Também fiz parte, por 4 anos, de um grupo de pesquisa científica em neurofarmacologia com foco em memória, aprendizado e Doença de Alzheimer onde obtive familiaridade com documentações em lingua inglesa e a repetibilidade de protocolos pré-estabelecidos.
         </Description>
         <span>
           <Keywords>React</Keywords>

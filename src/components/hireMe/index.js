@@ -57,7 +57,7 @@ function HireMe() {
   const whatsApp = [require('../../images/WhatsApp/group-3-copy@2x.png'), require('../../images/WhatsApp/group-3-copy.png')]
   const github = [require('../../images/GitHub/fill-1-copy@2x.png'), require('../../images/GitHub/fill-1-copy.png')]
   const twitter = [require('../../images/Twitter/fill-1-copy-2@2x.png'), require('../../images/Twitter/fill-1-copy-2.png')]
-  const instagram = [require('../../images/Instagran/group-8-copy@2x.png'), require('../../images/Instagran/group-8-copy.png')]
+  const instagram = [require('../../images/Instagram/group-8-copy@2x.png'), require('../../images/Instagram/group-8-copy.png')]
 
   return (
     <Wrapper id='contact'>

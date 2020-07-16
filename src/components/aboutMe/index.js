@@ -92,7 +92,7 @@ function AboutMe() {
       <TextWrapper>
         <Title>Sobre mim</Title>
         <Description>
-          Atualmente um desenvolverdor Web Fullstack, tenho 3 anos de experiência com programação de robôs industriais, onde desenvolvi habilidade com linguagens de alto nível e lógica de programação. Também fiz parte, por 4 anos, de um grupo de pesquisa científica em neurofarmacologia com foco em memória, aprendizado e Doença de Alzheimer onde obtive familiaridade com documentações em lingua inglesa e a repetibilidade de protocolos pré-estabelecidos.
+          Atualmente um desenvolvedor Web Fullstack, tenho 3 anos de experiência com programação de robôs industriais, onde desenvolvi habilidade com linguagens de alto nível e lógica de programação. Também fiz parte, por 4 anos, de um grupo de pesquisa científica em neurofarmacologia com foco em memória, aprendizado e Doença de Alzheimer onde obtive familiaridade com documentações em lingua inglesa e a repetibilidade de protocolos pré-estabelecidos.
         </Description>
         <span>
           <Keywords>React</Keywords>

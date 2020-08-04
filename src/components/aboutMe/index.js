@@ -103,7 +103,7 @@ function AboutMe() {
           <Keywords>TS</Keywords>
           <Keywords>SQL</Keywords>
         </span>
-        <a href={require('../../Documents/CV_Danilo_Mourelle.pdf')} download="CV - Danilo Mourelle.pdf" ><Button>Baixe meu CV</Button></a>
+        <a href={require('../../Documents/Danilo Mourelle - CV.pdf')} download="CV - Danilo Mourelle.pdf" ><Button>Baixe meu CV</Button></a>
       </TextWrapper>
 
       <ImageWrapper src={require('../../images/Personal/DSCN0677.jpg')} alt='Profile' />
